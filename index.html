@@ -8,24 +8,57 @@
 </head>
 <body>
 
+    
     <header>
         <h1>Hi, I'm Amsu Thapa</h1>
         <p>Welcome to my portfolio website</p>
     </header>
 
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
     <section id="about">
         <h2>About Me</h2>
-        <p>Im a Bcs student in Biratnagar International College. </p>
+        <p>I'm a BSc IT student at Biratnagar International College.</p>
     </section>
 
     <section id="projects">
+        <img src="images/Screenshot 2025-11-14 at 09.30.45.png" alt="" width="800" height="500">
         <h2>My Projects</h2>
-        <p>Ceaser Cipher<br> Tic-Tac-Toe <br>WeatherApp <br> Banking System <br> Traffic Managment System </p>
+        <p>
+            Ceaser Cipher <br>
+            Tic-Tac-Toe <br>
+            Weather App <br>
+            Banking System <br>
+            Traffic Management System
+        </p>
     </section>
+
 
     <section id="contact">
         <h2>Contact Me</h2>
-        <p>Email:amshuthapa2@gmail.com</p>
+        <p>Email: amshuthapa2@gmail.com</p>
+
+     
+        <form action="#" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+            <button type="submit">Send Message</button>
+        </form>
     </section>
+
 </body>
 </html>
